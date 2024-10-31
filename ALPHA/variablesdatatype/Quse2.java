@@ -1,3 +1,4 @@
+// Inaprogram,inputthesideofasquare.Youhavetooutputtheareaofthesquare
 package variablesdatatype;
 public class Quse2 {
     public static void main(String[] args) {
