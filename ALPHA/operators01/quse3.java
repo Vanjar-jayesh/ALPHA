@@ -1,3 +1,6 @@
+/// this is a bity operators of java program
+
+
 public class quse3 {
     public static void main(String[] args) {
         int x , y ,z;
