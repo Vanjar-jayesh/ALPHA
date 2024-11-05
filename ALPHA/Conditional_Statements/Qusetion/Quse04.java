@@ -1,3 +1,4 @@
+//This code is the a ternary operator;
 public class Quse04 {
     public static void main(String[] args) {
         int a =63 ,b=36;
