@@ -1,3 +1,4 @@
+// write a java program for  loop 
 package Quse;
 
 public class Quse001 {
