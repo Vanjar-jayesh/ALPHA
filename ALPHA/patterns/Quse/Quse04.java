@@ -1,3 +1,7 @@
+// A
+// BC
+// DEF
+// GHIJ
 package Quse;
 
 public class Quse04 {
