@@ -1,3 +1,7 @@
+// ****
+// ***
+// **
+// *
 package Quse;
 
 public class Quse02 {
