@@ -1,3 +1,7 @@
+// 1
+// 12
+// 123
+// 1234
 package Quse;
 
 public class Quse03 {
