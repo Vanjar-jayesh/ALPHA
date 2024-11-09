@@ -1,3 +1,4 @@
+// print Star patteran
 /**
 **
 ***
