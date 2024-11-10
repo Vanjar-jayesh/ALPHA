@@ -1,3 +1,9 @@
+// 5 
+// 5 4 
+// 5 4 3 
+// 5 4 3 2 
+// 5 4 3 2 1 
+
 package Quse;
 
 public class Quse07 {
