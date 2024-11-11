@@ -1,3 +1,5 @@
+// write a java program to  binomial coefficient 
+
 package quse;
 
 public class binomial_coefficient {
