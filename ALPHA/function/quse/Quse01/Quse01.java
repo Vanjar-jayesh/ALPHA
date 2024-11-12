@@ -1,3 +1,5 @@
+// averga
+
 package Quse01;
 
 import java.util.Scanner;
