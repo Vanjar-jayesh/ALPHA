@@ -1,3 +1,4 @@
+// binay to decimal code for a java program
 package binary_to_decinal;
 
 public class decinal_to_binary {
