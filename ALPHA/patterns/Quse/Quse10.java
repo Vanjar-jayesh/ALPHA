@@ -1,3 +1,8 @@
+
+//    *
+//   **
+//  ***
+// ****
 package Quse;
 public class Quse10 {
     public static void inver(int n){
