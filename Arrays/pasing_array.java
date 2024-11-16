@@ -1,3 +1,4 @@
+// pasing of value in  a array 
 public class pasing_array {
 
     public static void update(int marks[]) {
