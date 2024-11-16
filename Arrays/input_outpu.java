@@ -1,3 +1,5 @@
+// input of a outpu in a array
+
 import java.util.Scanner;
 
 public class input_outpu {
