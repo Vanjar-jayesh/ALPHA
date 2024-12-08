@@ -1,3 +1,5 @@
+// print factrolaer number
+
 package RecursionBasics;
 
 public class Quse03 {
