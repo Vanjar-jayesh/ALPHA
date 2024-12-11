@@ -1,26 +1,23 @@
-package RecursionAdV.Quse;
+package RecursionAdV.Quse.Quse;
 
 public class Quse01 {
 
-    public static int tilingProblem(int n){
-        if (n==0||n==1) {
-            return 1;
-
+    public static void allOccurences(int arr[],int key,int i){
+        if (i == arr.length) {
+            return;
         }
-        // kaam 
-        // vertical choice
-        int fnm1 = tilingProblem(n-1);
 
-        // horizontal choce
-        int fnm2 = tilingProblem(n-2);
-
-        int totways = fnm1+fnm2;
-        return totways;
+        if (arr[i] == key) {
+            System.out.print(i+" ");
+        }
+        allOccurences(arr, key, i+1);
     }
     public static void main(String[] args) {
-        int n =4;
+        int arr[] = {3,2,4,5,6,2,7,2,2};
 
-        System.out.println(tilingProblem(n));
+        int key = 2;
 
+        allOccurences(arr, key, 0);
+        System.out.println();
     }
 }
