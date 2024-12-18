@@ -211,6 +211,18 @@ public class linkedlist {
         prve.next = prve.next.next;
         return;
     }
+    
+    // slow-fast Approach
+    public Node findMid(Node head) { // helper
+        Node slow = head;
+        Node fast = head;
+
+        while (fast != null && fast.next != null) {
+            slow = slow.next;// +1
+            fast = fast.next.next;// +2
+        }
+        return slow;// slow is my midNOde
+    }
     public static void main(String[] args) {
         linkedlist ll = new linkedlist();
         ll.printlist();
