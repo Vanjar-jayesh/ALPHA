@@ -184,6 +184,33 @@ public class linkedlist {
 
         head = prev;
     }
+    
+    public void DeleteNthfromENd(int n) {
+        // Calculate size
+        int sz = 0;
+        Node temp = head;
+        while (temp != null) {
+            temp = temp.next;
+            sz++;
+        }
+
+        if (n == sz) {
+            head = head.next;
+            return;
+        }
+
+        // sz-n
+        int i = 1;
+        int iTOfind = sz - n;
+        Node prve = head;
+        while (i < iTOfind) {
+            prve = prve.next;
+            i++;
+        }
+
+        prve.next = prve.next.next;
+        return;
+    }
     public static void main(String[] args) {
         linkedlist ll = new linkedlist();
         ll.printlist();
