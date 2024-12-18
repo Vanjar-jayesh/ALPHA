@@ -223,6 +223,39 @@ public class linkedlist {
         }
         return slow;// slow is my midNOde
     }
+      public boolean chechPalindrome() {
+        if (head == null || head.next == null) {
+            return true;
+        }
+        // step1 - find mid
+        Node midNode = findMid(head);
+
+        // setp 2 - reverse 2nd half
+        Node prev = null;
+        Node curr = midNode;
+        Node next;
+
+        while (curr != null) {
+            next = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = next;
+        }
+
+        Node right = prev; // right half head
+        Node left = head;
+        // step3 - check left half & right half
+        while (right != null) {
+            if (left.data != right.data) {
+                return false;
+            }
+
+            left = left.next;
+            right = right.next;
+        }
+
+        return true;
+    }
     public static void main(String[] args) {
         linkedlist ll = new linkedlist();
         ll.printlist();
