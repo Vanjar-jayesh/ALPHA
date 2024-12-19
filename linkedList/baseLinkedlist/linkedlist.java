@@ -256,6 +256,26 @@ public class linkedlist {
 
         return true;
     }
+     // detecta loop cycle in a ll
+
+    public static boolean isCycle(){
+        Node slow = head;
+        Node fast = head;
+
+        while (fast != null && fast.next != null ) {
+             slow = slow.next;//+1
+             fast = fast.next.next;//+2
+            if (slow == fast) {
+                return true;//cycle exists
+            }
+
+        }
+
+        return false; // cycle doesn`t exist
+    }
+
+
+    
     public static void main(String[] args) {
         linkedlist ll = new linkedlist();
         ll.printlist();
