@@ -274,6 +274,38 @@ public class linkedlist {
         return false; // cycle doesn`t exist
     }
 
+ // removeing cycle
+    public static void removeycle(){
+        // detect cycle
+        Node slow = head;
+        Node fast = head;
+        boolean exists = false;
+
+        while (fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+            if (fast == slow) {
+                exists = true;
+                break;
+            }
+        }
+
+        if (exists == false) {
+            return;
+        }
+        //find meeting point
+            slow = head;
+            Node prev = null;
+            while (slow != fast) {
+                prev = fast;
+                slow = slow.next;
+                fast = fast.next;
+            }
+        // remove cycle -> last.next = null
+        prev.next = null;
+    }
+
+
 
     
     public static void main(String[] args) {
