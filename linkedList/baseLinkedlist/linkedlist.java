@@ -504,5 +504,21 @@ public class linkedlist {
         ll.printlist();
         ll.zigzag();
         ll.printlist();
+          ll.addlast(7);
+        ll.addlast(6);
+        ll.addlast(5);
+        ll.addlast(4);
+        ll.addlast(3);
+        ll.addlast(2);
+        ll.addlast(1);
+        
+        System.out.println("linked list befor");
+        ll.printlist();
+
+        ll.swapNode(4, 3);
+    
+
+        System.out.println("linked list after");
+        ll.printlist();
     }
 }
