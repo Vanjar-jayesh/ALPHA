@@ -3,6 +3,8 @@ package BaseQuse;
 import java.util.Arrays;
 import java.util.Comparator;
 
+
+
 public class FractionalKanpsack {
     public static void main(String[] args) {
         int val[] = { 60, 100, 120 };
