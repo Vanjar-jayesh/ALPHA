@@ -1,3 +1,5 @@
+
+
 package Quses;
 
 public class Quse01 {
