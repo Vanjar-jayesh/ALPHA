@@ -10,6 +10,8 @@ public class Quse01 {
 
         mainla.add(list);
 
+        
+
         ArrayList<Integer> list2 = new ArrayList<>();
         list2.add(3);
         list2.add(4);
