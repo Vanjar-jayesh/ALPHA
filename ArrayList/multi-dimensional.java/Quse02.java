@@ -12,6 +12,8 @@ public class Quse02 {
             list2.add(i * 2);// 246810
             list3.add(i * 3);// 361215
 
+
+            
         }
 
         mainlist.add(list1);
