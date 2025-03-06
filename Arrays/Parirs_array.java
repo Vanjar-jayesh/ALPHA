@@ -1,3 +1,5 @@
+
+
 public class Parirs_array {
     public static void PrintPairs(int number[]){
         for(int i=0; i<number.length;i++){
