@@ -1,8 +1,4 @@
 
-
-
-
-
 package baseQuse;
 
 import java.util.ArrayList;
