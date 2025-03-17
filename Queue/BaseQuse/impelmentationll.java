@@ -1,3 +1,5 @@
+
+
 package BaseQuse;
 
 public class impelmentationll {
