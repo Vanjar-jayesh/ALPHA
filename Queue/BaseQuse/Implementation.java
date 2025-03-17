@@ -8,6 +8,7 @@ public class Implementation {
        static int size;
         static int rear;
         static int front;
+        
         Queue(int n){
             arr = new int[n];
             size = n;
