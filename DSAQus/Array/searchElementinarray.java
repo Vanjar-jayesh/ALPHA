@@ -1,3 +1,6 @@
+
+
+
 package Array;
 
 public class searchElementinarray {
