@@ -1,3 +1,5 @@
+
+
 package quse;
 
 public class fun01 {
